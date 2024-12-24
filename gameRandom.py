@@ -10,4 +10,11 @@ for i in range(5):
         print("You win!")
         exit()
     else:
+        if(x>random_choice):
+            print("Enter Low Number")
+        elif(x<random_choice):
+            print("Enter High Number")
+
         print(f"your chance is {i}")
+        x=int(input())
+print("Game Over")
